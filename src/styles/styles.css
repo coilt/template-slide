@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans:wght@200;300;400;500;600;900&display=swap");
+
+.header {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 20vw;
+  margin-top: 20px;
+}
+
+.nav {
+  margin-right: 20px;
+}
+
+.hero-text {
+  width: 60%;
+  margin-top: 5%;
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+
+.wrapper {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}

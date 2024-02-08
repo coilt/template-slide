@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Inner from "../components/Layout/Inner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,101 +15,51 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+
+      <div className="wrapper">
+        <Inner className="home">
+          <h1>Home</h1>
+
+          <div className="body">
+            <p className="hero-text">
+              analyzing the mysteries of the human mind; such tales of illusion
+              and banter as "The Premature Burial" and "The System of Dr. Tarr
+              and Professor Fether"; such bits of extravaganza as "The Devil in
+              the Belfry" and "The Angel of the Odd"; such tales of adventure as
+              "The Narrative of Arthur Gordon Pym"; such papers of keen
+              criticism and review as won for Poe the enthusiastic admiration of
+              Charles Dickens, although they made him many enemies among the
+              over-puffed minor American writers so mercilessly exposed by him;
+              such poems of beauty and melody as "The Bells," "The Haunted
+              Palace," "Tamerlane," "The City in the Sea" and "The Raven." What
+              delight for the jaded senses of the reader is this enchanted
+              domain of wonder-pieces! What an atmosphere of beauty, music,
+              color! What resources of imagination, construction, analysis and
+              absolute art! One might almost sympathize with Sarah Helen
+              Whitman, who, confessing to a half faith in the old superstition
+              of the significance of anagrams, found, in the transposed letter
+            </p>
+            <p className="hero-text">
+              analyzing the mysteries of the human mind; such tales of illusion
+              and banter as "The Premature Burial" and "The System of Dr. Tarr
+              and Professor Fether"; such bits of extravaganza as "The Devil in
+              the Belfry" and "The Angel of the Odd"; such tales of adventure as
+              "The Narrative of Arthur Gordon Pym"; such papers of keen
+              criticism and review as won for Poe the enthusiastic admiration of
+              Charles Dickens, although they made him many enemies among the
+              over-puffed minor American writers so mercilessly exposed by him;
+              such poems of beauty and melody as "The Bells," "The Haunted
+              Palace," "Tamerlane," "The City in the Sea" and "The Raven." What
+              delight for the jaded senses of the reader is this enchanted
+              domain of wonder-pieces! What an atmosphere of beauty, music,
+              color! What resources of imagination, construction, analysis and
+              absolute art! One might almost sympathize with Sarah Helen
+              Whitman, who, confessing to a half faith in the old superstition
+              of the significance of anagrams, found, in the transposed letter
+            </p>
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+        </Inner>
+      </div>
     </>
   );
 }
