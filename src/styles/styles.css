@@ -4,8 +4,8 @@
   font-family: "Noto Sans";
   font-weight: 600;
   text-transform: uppercase;
-  margin-left: 20vw;
-  margin-top: 20px;
+  margin-left: 10vw;
+  margin-top: 0px;
 }
 
 .nav {
@@ -13,13 +13,14 @@
 }
 
 .hero-text {
-  width: 60%;
   margin-top: 5%;
+  margin-left: 0vw;
+  margin-right: 0vw;
   font-family: "Noto Sans";
   font-weight: 400;
 }
 
 .wrapper {
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }

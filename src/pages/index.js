@@ -16,50 +16,50 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="wrapper">
-        <Inner className="home">
-          <h1>Home</h1>
+      <Inner>
+        {/* <div className="wrapper"> */}
+        <h1>Home</h1>
 
-          <div className="body">
-            <p className="hero-text">
-              analyzing the mysteries of the human mind; such tales of illusion
-              and banter as "The Premature Burial" and "The System of Dr. Tarr
-              and Professor Fether"; such bits of extravaganza as "The Devil in
-              the Belfry" and "The Angel of the Odd"; such tales of adventure as
-              "The Narrative of Arthur Gordon Pym"; such papers of keen
-              criticism and review as won for Poe the enthusiastic admiration of
-              Charles Dickens, although they made him many enemies among the
-              over-puffed minor American writers so mercilessly exposed by him;
-              such poems of beauty and melody as "The Bells," "The Haunted
-              Palace," "Tamerlane," "The City in the Sea" and "The Raven." What
-              delight for the jaded senses of the reader is this enchanted
-              domain of wonder-pieces! What an atmosphere of beauty, music,
-              color! What resources of imagination, construction, analysis and
-              absolute art! One might almost sympathize with Sarah Helen
-              Whitman, who, confessing to a half faith in the old superstition
-              of the significance of anagrams, found, in the transposed letter
-            </p>
-            <p className="hero-text">
-              analyzing the mysteries of the human mind; such tales of illusion
-              and banter as "The Premature Burial" and "The System of Dr. Tarr
-              and Professor Fether"; such bits of extravaganza as "The Devil in
-              the Belfry" and "The Angel of the Odd"; such tales of adventure as
-              "The Narrative of Arthur Gordon Pym"; such papers of keen
-              criticism and review as won for Poe the enthusiastic admiration of
-              Charles Dickens, although they made him many enemies among the
-              over-puffed minor American writers so mercilessly exposed by him;
-              such poems of beauty and melody as "The Bells," "The Haunted
-              Palace," "Tamerlane," "The City in the Sea" and "The Raven." What
-              delight for the jaded senses of the reader is this enchanted
-              domain of wonder-pieces! What an atmosphere of beauty, music,
-              color! What resources of imagination, construction, analysis and
-              absolute art! One might almost sympathize with Sarah Helen
-              Whitman, who, confessing to a half faith in the old superstition
-              of the significance of anagrams, found, in the transposed letter
-            </p>
-          </div>
-        </Inner>
-      </div>
+        <div className="body">
+          <p className="hero-text">
+            analyzing the mysteries of the human mind; such tales of illusion
+            and banter as "The Premature Burial" and "The System of Dr. Tarr and
+            Professor Fether"; such bits of extravaganza as "The Devil in the
+            Belfry" and "The Angel of the Odd"; such tales of adventure as "The
+            Narrative of Arthur Gordon Pym"; such papers of keen criticism and
+            review as won for Poe the enthusiastic admiration of Charles
+            Dickens, although they made him many enemies among the over-puffed
+            minor American writers so mercilessly exposed by him; such poems of
+            beauty and melody as "The Bells," "The Haunted Palace," "Tamerlane,"
+            "The City in the Sea" and "The Raven." What delight for the jaded
+            senses of the reader is this enchanted domain of wonder-pieces! What
+            an atmosphere of beauty, music, color! What resources of
+            imagination, construction, analysis and absolute art! One might
+            almost sympathize with Sarah Helen Whitman, who, confessing to a
+            half faith in the old superstition of the significance of anagrams,
+            found, in the transposed letter
+          </p>
+          <p className="hero-text">
+            analyzing the mysteries of the human mind; such tales of illusion
+            and banter as "The Premature Burial" and "The System of Dr. Tarr and
+            Professor Fether"; such bits of extravaganza as "The Devil in the
+            Belfry" and "The Angel of the Odd"; such tales of adventure as "The
+            Narrative of Arthur Gordon Pym"; such papers of keen criticism and
+            review as won for Poe the enthusiastic admiration of Charles
+            Dickens, although they made him many enemies among the over-puffed
+            minor American writers so mercilessly exposed by him; such poems of
+            beauty and melody as "The Bells," "The Haunted Palace," "Tamerlane,"
+            "The City in the Sea" and "The Raven." What delight for the jaded
+            senses of the reader is this enchanted domain of wonder-pieces! What
+            an atmosphere of beauty, music, color! What resources of
+            imagination, construction, analysis and absolute art! One might
+            almost sympathize with Sarah Helen Whitman, who, confessing to a
+            half faith in the old superstition of the significance of anagrams,
+            found, in the transposed letter
+          </p>
+          {/* </div> */}
+        </div>
+      </Inner>
     </>
   );
 }

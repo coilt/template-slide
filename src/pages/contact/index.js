@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Inner from "../../components/Layout/Inner";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,33 +15,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="wrapper">
-        <Inner className="contact">
-          <h1>Contact</h1>
+      <Inner>
+        {/* <div className="wrapper"> */}
+        <h1>Contact</h1>
 
-          <div className="body">
-            <p className="hero-text">
-              was warmly discussed, which procured it a high reputation. It
-              rallied round it a certain number of partisans. The solution it
-              proposed gave, at least, full liberty to the imagination. The
-              human mind delights in grand conceptions of supernatural beings.
-              And the sea is precisely their best vehicle, the only medium
-              through which these giants (against which terrestrial animals,
-              such as elephants or rhinoceroses, are as nothing) can be produced
-              or developed. The industrial and commercial papers treated the
-              question chiefly from this point of view. The Shipping and
-              Mercantile Gazette, the Lloyd's List, the Packet-Boat, and the
-              Maritime and Colonial Review, all papers devoted to insurance
-              companies which threatened to raise their rates of premium, were
-              unanimous on this point. Public opinion had been pronounced. The
-              United States were the first in the field; and in New York they
-              made preparations for an expedition destined to pursue this
-              narwhal. A frigate of great speed, the Abraham Lincoln, was put in
-              comm
-            </p>
-          </div>
-        </Inner>
-      </div>
+        <div className="body">
+          <p className="hero-text">
+            was warmly discussed, which procured it a high reputation. It
+            rallied round it a certain number of partisans. The solution it
+            proposed gave, at least, full liberty to the imagination. The human
+            mind delights in grand conceptions of supernatural beings. And the
+            sea is precisely their best vehicle, the only medium through which
+            these giants (against which terrestrial animals, such as elephants
+            or rhinoceroses, are as nothing) can be produced or developed. The
+            industrial and commercial papers treated the question chiefly from
+            this point of view. The Shipping and Mercantile Gazette, the Lloyd's
+            List, the Packet-Boat, and the Maritime and Colonial Review, all
+            papers devoted to insurance companies which threatened to raise
+            their rates of premium, were unanimous on this point. Public opinion
+            had been pronounced. The United States were the first in the field;
+            and in New York they made preparations for an expedition destined to
+            pursue this narwhal. A frigate of great speed, the Abraham Lincoln,
+            was put in comm
+          </p>
+          {/* </div> */}
+        </div>
+      </Inner>
     </>
   );
 }
