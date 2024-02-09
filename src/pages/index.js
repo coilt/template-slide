@@ -12,6 +12,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Inner>
+        <div className='wrapper'>
         <h1>Home</h1>
         <div className='body'>
           <p>
@@ -32,6 +33,7 @@ export default function Home() {
             pursue this narwhal. A frigate of great speed, the Abraham Lincoln,
             was put in comm
           </p>
+        </div>
         </div>
       </Inner>
     </>

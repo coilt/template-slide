@@ -4,6 +4,8 @@ import Inner from '../../components/Layout/Inner';
 export default function Contact() {
   return (
     <Inner>
+              <div className='wrapper'>
+
       <h1>Contact</h1>
       <div className='body'>
         <p>
@@ -23,6 +25,8 @@ export default function Contact() {
           and recognized the handsome face.
         </p>
       </div>
+      </div>
+
     </Inner>
     
   )

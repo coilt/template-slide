@@ -1,9 +1,11 @@
- import React from 'react';
+import React from 'react';
 import Inner from '../../components/Layout/Inner';
 
 export default function About() {
   return (
     <Inner>
+              <div className='wrapper'>
+
       <h1>About</h1>
       <div className='body'>
         <p>
@@ -22,6 +24,8 @@ export default function About() {
           story to dive inside. He is married, with three children, and lives in
           London.
         </p>
+        </div>
+
       </div>
     </Inner>
   );
