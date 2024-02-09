@@ -16,7 +16,7 @@ export default function About() {
           bestselling HOTBOX collaboration in 2016. It was also chosen as one of
           the best books of the month, on this site, when it first featured, in
           2021. Andy is also the author of the Ian Flyn science fiction
-          thrillers, and has penned poetry and a children’s book, which he wrote
+          thrillers, and has penned poetry and a children&apos;s book, which he wrote
           specifically for his daughter. Years of experience in the fields of
           mental health, criminal justice, education and environmental work,
           allow Andy to create diverse, interesting and believable characters in
