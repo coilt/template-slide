@@ -70,7 +70,7 @@ export default function Inner({ children }) {
     <div className='inner'>
       <motion.div {...anim(slide)} className='slide' />
       <motion.div {...anim(perspective)} className='page'>
-        <motion.div {...anim(opacity)}>
+        <motion.div {...anim(opacity)} className='opaque'>
           <div className='header'>
             <Link className='nav' href='/'>Home</Link>
             <Link className='nav' href='/about'>About</Link>
