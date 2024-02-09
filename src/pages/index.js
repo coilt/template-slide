@@ -13,10 +13,10 @@ export default function Home() {
       </Head>
       <Inner>
         <div className='wrapper'>
-          <h1>Home</h1>
+          <h1>This is a template with a <span className='accent'>Slide in <br/></span>transition</h1>
           <div className='body'>
             <p>
-              was warmly discussed, which procured it a high reputation. It
+              Was warmly discussed, which procured it a high reputation. It
               rallied round it a certain number of partisans. The solution it
               proposed gave, at least, full liberty to the imagination. The
               human mind delights in grand conceptions of supernatural beings.
