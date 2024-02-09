@@ -74,6 +74,7 @@ export default function Inner({ children }) {
           <div className='header'>
             <Link className='nav' href='/'>Home</Link>
             <Link className='nav' href='/about'>About</Link>
+            <Link className='nav' href='/projects'>Projects</Link>
             <Link className='nav' href='/contact'>Contact</Link>
           </div>
           {children}
